@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Signup - Food Court</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container mx-2">
+            <a class="navbar-brand fw-bold " href="#">FOOD COURT</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutsss.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fooditem.html">Food Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FORM -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+
+                <form class="was-validated  p-4 ">
+                    <h3 class="text-center mb-3">Signup</h3>
+
+                    <!-- First Name -->
+                    <div class="mb-2">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" required>
+                        <div class="invalid-feedback">Please fill out this field</div>
+                    </div>
+
+                    <!-- Last Name -->
+                    <div class="mb-2">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" required>
+                        <div class="invalid-feedback">Please fill out this field</div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-2">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" required>
+                        <div class="invalid-feedback">Enter a valid email</div>
+                        <div class="form-text">We'll never share your email</div>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="mb-2">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" required>
+                        <div class="invalid-feedback">Password required</div>
+                    </div>
+
+
+                    <div class="mb-2">
+                        <label class="form-label">Conform Password</label>
+                        <input type="password" class="form-control" required>
+                        <div class="invalid-feedback">Conform Password required</div>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="mb-2 form-check">
+                        <input type="checkbox" class="form-check-input" required>
+                        <label class="form-check-label">Agree to terms</label>
+                        <div class="invalid-feedback">You must agree before submitting</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PAGINATION -->
+    <nav>
+        <ul class="pagination justify-content-center flex-wrap">
+            <li class="page-item"><a class="page-link" href="./contact.html">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="./chat.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="./aboutsss.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="./contact.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="./login.html">Next</a></li>
+        </ul>
+    </nav>
+
+    <!-- FOOTER -->
+    <footer class="bg-success text-light text-center py-3">
+        <p class="mb-1">© 2025 Food Court | All Rights Reserved</p>
+        <h6 class="fw-bold">Contact Us</h6>
+        <p class="mb-0">Chennai, India | +91 98765 43210</p>
+        <p class="mb-0">foodcourt@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
